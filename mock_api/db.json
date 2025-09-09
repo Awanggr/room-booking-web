@@ -1,0 +1,32 @@
+{
+  "ruangan": [
+    { "id": 1, "kode": "A", "lokasi": "Lantai 1", "jumlah_kursi": 6 },
+    { "id": 2, "kode": "B", "lokasi": "Lantai 1", "jumlah_kursi": 6 },
+    { "id": 3, "kode": "C", "lokasi": "Lantai 2", "jumlah_kursi": 7 },
+    { "id": 4, "kode": "D", "lokasi": "Caffe", "jumlah_kursi": 8 },
+    { "id": 5, "kode": "Lobby", "lokasi": "Lantai 2", "jumlah_kursi": 16 },
+    { "id": 6, "kode": "Ballroom", "lokasi": "Auditorium", "jumlah_kursi": 60 }
+  ],
+  "bookings": [
+    { "id": 1, "ruanganId": 1, "nama": "Agung", "kegiatan": "Meeting Project X", "jumlah_peserta": 5, "tanggal": "2025-09-09", "waktu_mulai": "09:00", "waktu_selesai": "10:30" },
+    { "id": 2, "ruanganId": 1, "nama": "Budi", "kegiatan": "Diskusi Produk", "jumlah_peserta": 4, "tanggal": "2025-09-09", "waktu_mulai": "11:00", "waktu_selesai": "12:00" },
+    { "id": 3, "ruanganId": 2, "nama": "Citra", "kegiatan": "Planning Marketing", "jumlah_peserta": 6, "tanggal": "2025-09-09", "waktu_mulai": "10:00", "waktu_selesai": "12:00" },
+    { "id": 4, "ruanganId": 2, "nama": "Doni", "kegiatan": "Review Budget", "jumlah_peserta": 3, "tanggal": "2025-09-09", "waktu_mulai": "13:00", "waktu_selesai": "14:30" },
+    { "id": 5, "ruanganId": 3, "nama": "Eka", "kegiatan": "Team Meeting", "jumlah_peserta": 5, "tanggal": "2025-09-10", "waktu_mulai": "09:00", "waktu_selesai": "10:00" },
+    { "id": 6, "ruanganId": 3, "nama": "Fajar", "kegiatan": "Workshop Internal", "jumlah_peserta": 7, "tanggal": "2025-09-10", "waktu_mulai": "10:30", "waktu_selesai": "12:00" },
+    { "id": 7, "ruanganId": 4, "nama": "Gina", "kegiatan": "Brainstorming Ide", "jumlah_peserta": 6, "tanggal": "2025-09-10", "waktu_mulai": "08:30", "waktu_selesai": "10:00" },
+    { "id": 8, "ruanganId": 4, "nama": "Hadi", "kegiatan": "Diskusi Tim", "jumlah_peserta": 5, "tanggal": "2025-09-10", "waktu_mulai": "11:00", "waktu_selesai": "12:30" },
+    { "id": 9, "ruanganId": 5, "nama": "Ika", "kegiatan": "Client Meeting", "jumlah_peserta": 10, "tanggal": "2025-09-11", "waktu_mulai": "09:00", "waktu_selesai": "10:30" },
+    { "id": 10, "ruanganId": 5, "nama": "Joko", "kegiatan": "Training Staff", "jumlah_peserta": 12, "tanggal": "2025-09-11", "waktu_mulai": "11:00", "waktu_selesai": "12:30" },
+    { "id": 11, "ruanganId": 6, "nama": "Mba Alya", "kegiatan": "Training Kalo Data", "jumlah_peserta": 30, "tanggal": "2025-09-10", "waktu_mulai": "08:25", "waktu_selesai": "10:00" },
+    { "id": 12, "ruanganId": 6, "nama": "Mba Alya", "kegiatan": "Training Kalo Data", "jumlah_peserta": 30, "tanggal": "2025-09-10", "waktu_mulai": "10:00", "waktu_selesai": "12:00" },
+    { "id": 13, "ruanganId": 6, "nama": "Mba Alya", "kegiatan": "Training Kalo Data", "jumlah_peserta": 30, "tanggal": "2025-09-10", "waktu_mulai": "13:00", "waktu_selesai": "14:00" },
+    { "id": 14, "ruanganId": 6, "nama": "Mba Alya", "kegiatan": "Training Kalo Data", "jumlah_peserta": 30, "tanggal": "2025-09-10", "waktu_mulai": "14:00", "waktu_selesai": "16:00" },
+    { "id": 15, "ruanganId": 1, "nama": "Agung", "kegiatan": "Review QA", "jumlah_peserta": 5, "tanggal": "2025-09-11", "waktu_mulai": "09:00", "waktu_selesai": "10:00" },
+    { "id": 16, "ruanganId": 2, "nama": "Budi", "kegiatan": "Sprint Planning", "jumlah_peserta": 6, "tanggal": "2025-09-11", "waktu_mulai": "10:00", "waktu_selesai": "11:30" },
+    { "id": 17, "ruanganId": 3, "nama": "Citra", "kegiatan": "Retrospective", "jumlah_peserta": 7, "tanggal": "2025-09-12", "waktu_mulai": "08:30", "waktu_selesai": "09:30" },
+    { "id": 18, "ruanganId": 4, "nama": "Doni", "kegiatan": "Ideation Session", "jumlah_peserta": 5, "tanggal": "2025-09-12", "waktu_mulai": "10:00", "waktu_selesai": "12:00" },
+    { "id": 19, "ruanganId": 5, "nama": "Eka", "kegiatan": "Client Presentation", "jumlah_peserta": 15, "tanggal": "2025-09-12", "waktu_mulai": "09:00", "waktu_selesai": "11:00" },
+    { "id": 20, "ruanganId": 6, "nama": "Fajar", "kegiatan": "Workshop Internal", "jumlah_peserta": 25, "tanggal": "2025-09-12", "waktu_mulai": "13:00", "waktu_selesai": "15:00" }
+  ]
+}
